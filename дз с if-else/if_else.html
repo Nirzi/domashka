@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="if_else.css" />
+  </head>
+  <body>
+    <div id="div_with_result">
+      <div id="result"></div>
+    </div>
+    <script>
+      const result = document.getElementById("result");
+      function grade_level_if_else() {
+        let name = prompt("Введите своё имя");
+        let evaluation = parseInt(prompt("Введите оценку"));
+        let level;
+        if (evaluation === 1 || evaluation === 2 || evaluation === 3) {
+          level = "Начальный уровень.";
+        } else if (evaluation === 4 || evaluation === 5 || evaluation === 6) {
+          level = "Средний уровень.";
+        } else if (evaluation === 7 || evaluation === 8 || evaluation === 9) {
+          level = "Достаточный уровень.";
+        } else if (
+          evaluation === 10 ||
+          evaluation === 11 ||
+          evaluation === 12
+        ) {
+          level = "Высокий уровень.";
+        } else {
+          level = "Неверная оценка. Введите число от 1 до 12.";
+        }
+        result.textContent += `Имя студента ${name}. ${level}(Это через if_else)`;
+      }
+      function grade_level_switch() {
+        let name = prompt("Введите своё имя");
+        let evaluation = parseInt(prompt("Введите оценку"));
+        let level;
+        switch (evaluation) {
+          case 1:
+          case 2:
+          case 3:
+            level = "Начальный уровень.";
+            break;
+          case 4:
+          case 5:
+          case 6:
+            level = "Средний уровень.";
+            break;
+          case 7:
+          case 8:
+          case 9:
+            level = "Достаточный уровень.";
+            break;
+          case 10:
+          case 11:
+          case 12:
+            level = "Высокий уровень.";
+            break;
+        }
+        result.textContent += `Имя студента:${name}. ${level}(Это через switch)`;
+      }
+      grade_level_if_else();
+      grade_level_switch();
+    </script>
+  </body>
+</html>

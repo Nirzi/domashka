@@ -1,0 +1,9 @@
+#div_with_result{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+#result{
+  font-size: 25px;
+  font-weight: bolder;
+}
