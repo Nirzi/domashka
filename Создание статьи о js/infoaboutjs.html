@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="infoaboutjs.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/styles/tomorrow-night-bright.min.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div id="divwithheader">
+        <h1>JavaScript туториал</h1>
+      </div>
+    </header>
+
+    <div class="divrazdellink">
+      <div class="razdellink"></div>
+    </div>
+
+    <main>
+      <div id="divwithwhatjs">
+        <section id="whatisitjs">
+          <h2 id="h2whatisitjs">Что такое JavaScript</h2>
+          <p class="fontsize16">
+            <strong class="fontsize18"
+              ><abrr id="abrrjs" title="JavaScript">JS</abrr></strong
+            >
+            — это язык программирования, который в первую очередь применяют в
+            вебе. С его помощью сайты делают интерактивными: добавляют
+            всплывающие окна, анимацию, кнопки лайков и формы для отправки
+            информации. Его ещё называют главным языком фронтенда — «лицевой»
+            стороны сайта, с которой взаимодействуют пользователи.
+          </p>
+          <ol id="spisokprem">
+            <li class="fontsize16">
+              <strong class="fontsize18"
+                >Интерпретируемый, а не компилируемый.</strong
+              >
+              Все языки программирования делятся на две группы. Код на
+              компилируемых языках нужно сначала пропустить через специальную
+              программу, компилятор, и только потом его можно использовать.
+              Большинство современных языков как раз компилируемые в отличие от
+              JavaScript.
+            </li>
+            <li class="fontsize16">
+              <strong class="fontsize18">Мультипарадигменный.</strong> В
+              программировании существует несколько парадигм:
+              <ul>
+                <li class="fontsize16">
+                  <em>Объектная.</em> В ней для каждой сущности в коде, например
+                  кнопки заказа, создают объекты. А затем прописывают связи
+                  между этими объектами.
+                </li>
+                <li class="fontsize16">
+                  <em>Функциональная.</em> В ней больше внимания уделяют
+                  конкретным инструкциям. Кнопка здесь — не объект, в коде она
+                  обозначена как порядок действий, которые происходят после
+                  нажатия.
+                </li>
+                <li class="fontsize16">
+                  <em>Императивная.</em> Здесь код пишут как чёткий набор
+                  инструкций, который выполняется строго последовательно.
+                  Императивная и функциональная парадигма часто применяются
+                  вместе.
+                </li>
+              </ul>
+            </li>
+            <li class="fontsize16">
+              <strong class="fontsize18">Без строгой типизации.</strong> Есть
+              языки программирования со статической типизацией. Если создать
+              переменную, нужно сначала обязательно задать её тип, например
+              число. И ничего, кроме числа, хранить в ней нельзя.
+            </li>
+            <li class="fontsize16">
+              <strong class="fontsize18"
+                >Интегрирован с HTML и CSS в браузерах.</strong
+              >
+              HTML и CSS — это языки разметки для сайтов. Они не относятся к
+              языкам программирования, так как не позволяют писать функции и
+              что-то обрабатывать. С их помощью задают внешний вид сайта:
+              расположение блоков, размер шрифта, цвета. Чтобы сайт стал
+              интерактивным, нужен язык программирования, и JavaScript тут
+              подходит идеально. Современные браузеры позволяют просто вписать
+              код на JavaScript прямо в разметку, написанную на HTML и CSS, — и
+              всё заработает.
+            </li>
+          </ol>
+        </section>
+      </div>
+
+      <div class="divrazdellink">
+        <div class="razdellink"></div>
+      </div>
+
+      <div id="divwithtypesdata">
+        <section id="typesdata">
+          <h2 id="h2typesdata">Типы данных</h2>
+          <p class="fontsize16">
+            <strong class="fontsize18">Примитивные типы данных</strong> — это
+            базовые типы данных в JavaScript, которые не являются объектами и не
+            имеют методов. К ним относятся:
+          </p>
+          <ol id="spisoktypes" class="fontsize16">
+            <li>
+              **&#8216;String&#8216; (строка)** — представляет собой
+              последовательность символов.
+            </li>
+            <li>
+              **`Number` (число)** — может быть целым числом или числом с
+              плавающей запятой.
+            </li>
+            <li>
+              **`Boolean` (логическое значение)** — может принимать только два
+              значения: `true` или `false`.
+            </li>
+            <li>
+              **`Undefined` (неопределенный тип)** — значение переменной,
+              которая была объявлена, но не была инициализирована.
+            </li>
+            <li>
+              **`Null` (нулевой тип)** — особое значение, которое указывает на
+              отсутствие объекта.
+            </li>
+          </ol>
+
+          <pre id="blockwithcode">
+            <code class="fontsize16" class="language-javascript hljs">
+        <span class="colorblue">let</span> name = "John"; // String
+        <span class="colorblue">let</span> age = 30; // Number
+        <span class="colorblue">let</span> isStudent = false; // Boolean
+        <span class="colorblue">let</span> job; // Undefined
+        <span class="colorblue">let</span> car = null; // Null
+            </code>
+          </pre>
+        </section>
+      </div>
+
+      <div class="divrazdellink">
+        <div class="razdellink"></div>
+      </div>
+
+      <div id="glavtabletypedate">
+        <div id="tabletypedate">
+          <div id="glavdivtableinfo">
+            <div id="divtableinfo">
+              <table id="tableinfo">
+                <tr>
+                  <th class="zagolovoktable">Типы данных</th>
+                  <th class="zagolovoktable">Описание</th>
+                </tr>
+                <tr>
+                  <th class="fontsize18px">`String`</th>
+                  <th class="fontsize16px">Последовательность символов</th>
+                </tr>
+                <tr>
+                  <th class="fontsize18px">`Number`</th>
+                  <th class="fontsize16px">
+                    Число, целое или с плавающей запятой
+                  </th>
+                </tr>
+                <tr>
+                  <th class="fontsize18px">`Boolean`</th>
+                  <th class="fontsize16px">
+                    Логическое значение: `true` или `false`
+                  </th>
+                </tr>
+                <tr>
+                  <th class="fontsize18px">`Undefined`</th>
+                  <th class="fontsize16px">
+                    Значение переменной, которая не была инициализирована
+                  </th>
+                </tr>
+                <tr>
+                  <th class="fontsize18px">`Null`</th>
+                  <th class="fontsize16px">Указывает на отсутствие объекта</th>
+                </tr>
+                <tr>
+                  <th class="fontsize18px">`Object`</th>
+                  <th class="fontsize16px">Коллекция пар "ключ-значение"</th>
+                </tr>
+                <tr>
+                  <th class="fontsize18px">`Array`</th>
+                  <th class="fontsize16px">Упорядоченный список значений</th>
+                </tr>
+                <tr>
+                  <th class="fontsize18px">`Function`</th>
+                  <th class="fontsize16px">
+                    Блок кода, выполняющий определённую задачу
+                  </th>
+                </tr>
+              </table>
+            </div>
+          </div>
+          <div>
+            <p>
+              В JavaScript также существуют типы данных, основанные на объектах.
+              Эти типы позволяют хранить более сложные структуры данных.
+              Рассмотрим основные объектные типы:
+            </p>
+            <ol>
+              <li>
+                **Object (объект)** — коллекция пар "ключ-значение". Ключами
+                могут быть строки или символы, а значениями — любые типы данных.
+              </li>
+              <li>
+                **Array (массив)** — упорядоченный список значений,
+                индексированный целыми числами.
+              </li>
+              <li>
+                **Function (функция)** — блок кода, который можно вызвать для
+                выполнения определенной задачи.
+              </li>
+            </ol>
+            <pre>
+              <code class="language-javascript hljs">
+let person = {
+  name: "John",
+  age: 30,
+  isStudent: true,
+  };
+
+let numbers = [1, 2, 3, 4, 5];
+
+function greet() {
+  console.log("Hello, World!");
+}
+              </code>
+            </pre>
+          </div>
+        </div>
+      </div>
+
+      <div class="divrazdellink">
+        <div class="razdellink"></div>
+      </div>
+
+      <div id="divwithquotation">
+        <section id="sectionwithquotation">
+          <h2 id="h2withquotation">Цитаты</h2>
+          <p class="fontsize16">
+            &gt; "Программирование — это не спринт, а марафон." —
+            <em>Сергей Немчинский</em>
+          </p>
+          <p class="fontsize16">
+            &gt; Не грусти. Рано или поздно все станет понятно, все станет на
+            свои места и выстроится в единую красивую схему, как кружева. Станет
+            понятно, зачем все было нужно, потому что все будет правильно —
+            <em>Алиса в Стране Чудес</em>
+          </p>
+        </section>
+      </div>
+    </main>
+
+    <footer id="footer">
+      <div id="glavdivfooter">
+        <div id="divfooter">
+          <section class="copyright">
+            <div id="divzakl">
+              <h2>Заключение</h2>
+            </div>
+            <p class="fontsize16" id="textzakluchenie">
+              В JavaScript важно понимать, какие типы данных вы используете, так
+              как это влияет на поведение вашего кода. Примитивные типы данных,
+              такие как строки, числа и логические значения, являются основой
+              языка и часто используются для простых операций. Они не имеют
+              методов и не могут быть изменены после создания. Например, строка
+              "John" или число 30 — это примитивные значения, которые могут быть
+              легко использованы в различных вычислениях и логических
+              выражениях. С другой стороны, объектные типы данных предоставляют
+              более сложные структуры для хранения информации. Объекты позволяют
+              организовывать данные в пары "ключ-значение", что упрощает доступ
+              к ним и управление ими. Массивы упорядочивают данные, делая их
+              удобными для перебора и манипуляций. Функции же представляют собой
+              блоки кода, которые можно повторно использовать для выполнения
+              задач. Знание этих типов данных поможет вам более эффективно
+              работать с JavaScript и строить качественные приложения.
+            </p>
+          </section>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/highlight.min.js"></script>
+    <script>
+      hljs.highlightAll();
+    </script>
+  </body>
+</html>

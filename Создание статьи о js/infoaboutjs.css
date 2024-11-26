@@ -1,0 +1,137 @@
+body{
+  margin: 0;
+  background-color: rgb(235, 235, 235);
+}
+.razdellink{
+  height: 3px;
+  width: 90%;
+  background-color: rgb(178, 169, 169);
+  border-radius: 10px;
+}
+.divrazdellink{
+  display: flex;
+  justify-content: center;
+}
+#divwithheader{
+  text-align: center;
+}
+#whatisitjs{
+  width: 90%;
+}
+#divwithwhatjs{
+  display: flex;
+  justify-content: center;
+}
+#h2whatisitjs{
+  text-align: center;
+  font-size: 26px;
+}
+.fontsize16{
+  font-size: 16px;
+}
+#spisokprem{
+  display: grid;
+  gap: 10px;
+}
+.fontsize18{
+  font-size: 18px;
+}
+#abrrjs{
+  text-decoration: none;
+  font-style: italic;
+}
+#divwithtypesdata{
+  display: flex;
+  justify-content: center;
+}
+#typesdata{
+  width: 90%;
+}
+#h2typesdata{
+  text-align: center;
+}
+#spisoktypes{
+  display: grid;
+  gap: 5px;
+}
+#blockwithcode{
+  background-color: rgb(220, 218, 218);
+}
+#divfooter{
+  display: flex;
+  justify-content: start;
+  padding-bottom: 50px;
+  width: 90%;
+}
+#glavdivfooter{
+  display: flex;
+  justify-content: center;
+}
+#copyright{
+  width: 90%;
+}
+.colorblue{
+  color: blue;
+}
+#footer{
+  background-color: rgb(200, 200, 200);
+  margin-top: 30px;
+}
+#divwithquotation{
+  display: flex;
+  justify-content: center;
+}
+#sectionwithquotation{
+  width: 90%;
+}
+#h2withquotation{
+  text-align: center;
+}
+#tableinfo{
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+}
+#divtableinfo{
+  display: flex;
+  justify-content: start;
+}
+#glavdivtableinfo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.zagolovoktable{
+  font-size: 20px;
+}
+.fontsize18px{
+  font-size: 18px;
+}
+.fontsize16px{
+  font-size: 16px;
+  font-weight: normal;
+}
+#tabletypedate{
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  width: 90%;
+  gap: 5vw;
+}
+#glavtabletypedate{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#textzakluchenie{
+  text-indent: 25px;
+}
+#divzakl{
+  display: flex;
+  justify-content: center;
+}

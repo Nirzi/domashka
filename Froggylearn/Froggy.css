@@ -1,0 +1,88 @@
+body{
+  margin: 0;
+}
+@media only screen and (min-width: 1025px) {
+  .img-level-froggy{
+    height: 50vh;
+    width: 48vw;
+    border-radius: 10px;
+  }
+  .img-level-froggy:hover{
+    transform: scale(1.03);
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  .conteiner-level-card{
+    display: flex;
+    justify-content: space-around;
+    text-align: start;
+    margin-top: 1vh;
+  }
+  .Level-text{
+    text-align: center;
+    font-size: 25px;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+  .img-level-froggy{
+    height: 45vh;
+    width: 95vw;
+    border-radius: 10px;
+  }
+  .img-level-froggy:hover{
+    transform: scale(1.03);
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  .conteiner-level-card{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    margin-top: 1vh;
+  }
+  .Level-text{
+    font-size: 25px;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 768px){
+  .img-level-froggy{
+    height: 45vh;
+    width: 95vw;
+    border-radius: 10px;
+  }
+  .img-level-froggy:hover{
+    transform: scale(1.03);
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  .conteiner-level-card{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    margin-top: 1vh;
+  }
+  .Level-text{
+    font-size: 25px;
+  }
+}
+@media only screen and (max-width: 480px){
+  .img-level-froggy{
+    height: 30vh;
+    width: 95vw;
+    border-radius: 10px;
+  }
+  .img-level-froggy:hover{
+    transform: scale(1.03);
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  .conteiner-level-card{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    margin-top: 1vh;
+  }
+  .Level-text{
+    font-size: 25px;
+  }
+}

@@ -1,0 +1,39 @@
+.book-card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+  width: 250px;
+}
+
+.book-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.card-author {
+  font-weight: bold;
+  color: #555;
+}
+
+.card-body {
+  text-align: center;
+}
+.card-img-top {
+  max-height: 300px;
+  width: auto;
+  padding-top: 3px;
+  object-fit: contain;
+  margin: 0 auto;
+  display: block;
+}
+.mx{
+  margin-left: 3px;
+  margin-right: 3px;
+}
+.textcenter{
+  text-align: center;
+}
+.alignitems{
+  justify-content: center;
+}

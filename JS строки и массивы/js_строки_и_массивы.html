@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let link_purchases = prompt("Введите список покупок через пробел");
+      function work_with_user() {
+        let link_purchase = link_purchases.split(" ");
+        console.log(link_purchase);
+        alert(`Количество продуктов: ${link_purchase.length}`);
+        let numberuser = parseInt(
+          prompt(
+            `Введите номер элемента из списка от 1 до ${link_purchase.length}`
+          )
+        );
+        let i = 0;
+        while (i <= link_purchase.length) {
+          if (i == numberuser) {
+            // Делаем i-1 из-за того что нумерация массива начинается с 0
+            alert(`Элемента с индексом ${numberuser}: ${link_purchase[i - 1]}`);
+            let new_el_purchase = prompt(
+              "Хотите заменить элемент списка(Введите новый элемент списка)"
+            );
+            link_purchase[i - 1] = new_el_purchase;
+            break;
+          } else {
+            i++;
+          }
+        }
+        alert(link_purchase.join(","));
+      }
+      work_with_user();
+    </script>
+  </body>
+</html>
